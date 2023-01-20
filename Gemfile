@@ -67,3 +67,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "ruby-lsp", "~> 0.3.8", :group => :development
