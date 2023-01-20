@@ -1,8 +1,4 @@
 Person.where(
-name: "Jake W.",
-image_url: "people/1.jpg"
-
-Person.where(
   name: "Jake W.",
   image_url: "people/1.jpg"
 ).first_or_create!
@@ -45,4 +41,4 @@ Person.where(
 Person.where(
   name: "Anita W.",
   image_url: "people/9.jpg"
-).first_or_create!)
+).first_or_create!
